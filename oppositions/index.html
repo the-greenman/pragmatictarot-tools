@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+    <script type="text/javascript">
+        var lables = [
+            {"key": "aries" , "title":"Agency", "sub1":"Individual", "sub2":"Freedom"},
+            {"key": "taurus" , "title":"Structure", "sub1":"Ownership", "sub2":"Agency"},
+            {"key": "gemini" , "title":"Clarity", "sub1":"Definition", "sub2":"Answers"},
+            {"key": "cancer" , "title":"Safety", "sub1":"Inclusiveness", "sub2":"Play"},
+            {"key": "leo" , "title":"Execution", "sub1":"Efficiency", "sub2":"Control"},
+            {"key": "virgo" , "title":"Measurement", "sub1":"Assessment", "sub2":"Accuracy"},
+            {"key": "libra" , "title":"Strategy", "sub1":"Collective", "sub2":"Sacrifice"},
+            {"key": "scorpio" , "title":"Consequence", "sub1":"Sharing", "sub2":"Creation"},
+            {"key": "sagittarius" , "title":"Possibility", "sub1":"Direction", "sub2":"Questions"},
+            {"key": "capricorn" , "title":"Accountability", "sub1":"Usefulness", "sub2":"Work"},
+            {"key": "aquarius" , "title":"Exploration", "sub1":"Revolution", "sub2":"Change"},
+            {"key": "pisces" , "title":"Meaning", "sub1":"Generosity", "sub2":"Belonging"}
+
+
+        ]
+
+
+        
+
+    </script>
+    <style>
+        #svg-object {
+            width: 100%;
+            transition: 1s ease-in-out;
+        }
+    </style>
+
+</head>
+<body>
+    <object id="svg-object" data="opposing-forces.svg" type="image/svg+xml"></object>
+
+
+    <script type="text/javascript">
+    let degrees=0; // store rotation degrees
+    window.addEventListener("load", function() {
+        let svgObject = document.getElementById('svg-object').contentDocument;
+ 
+        if (svgObject){
+            lables.forEach(data => {
+                let titleElement = svgObject.getElementById(`${data.key}-title`);      
+                let sub1Element = svgObject.getElementById(`${data.key}-sub1`);
+                let sub2Element = svgObject.getElementById(`${data.key}-sub2`);
+
+                titleElement.innerHTML = data.title;
+                sub1Element.innerHTML = data.sub1;
+                sub2Element.innerHTML = data.sub2;
+            });
+        
+    
+            let image = svgObject.getElementById('opposingForcesSvg');
+        
+
+            function rotateImage(e) { 
+                change = -30;
+               // degrees = (degrees + change) % 360;
+               degrees = (degrees + change);
+               image.style.transform = 'rotate('+degrees+'deg)';
+                image.style.transition = '1s ease-in-out';
+            }    
+            image.addEventListener('click', rotateImage);
+        }
+    });
+
+    </script>
+</body>
+</html>
+
