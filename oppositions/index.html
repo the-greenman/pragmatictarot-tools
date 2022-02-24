@@ -60,8 +60,21 @@
                degrees = (degrees + change);
                image.style.transform = 'rotate('+degrees+'deg)';
                 image.style.transition = '1s ease-in-out';
-            }    
+            } 
+            
+            function spin(e){
+               degrees = Math.floor(Math.random() * 22)*16.3636;
+               let loops = Math.random(10);
+               image.style.transform = 'rotate('+degrees+'deg)';
+               image.style.transition = '2s ease-in-out';
+     
+            }
+
             image.addEventListener('click', rotateImage);
+            image.addEventListener("dblclick", spin);  
+
+
+
         }
     });
 
