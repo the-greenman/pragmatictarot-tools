@@ -29,14 +29,14 @@
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:zoom="0.70710678"
-     inkscape:cx="187.3833"
-     inkscape:cy="485.78236"
+     inkscape:cx="151.32085"
+     inkscape:cy="372.64527"
      inkscape:window-width="1824"
      inkscape:window-height="1145"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer3">
+     inkscape:current-layer="layer1">
     <sodipodi:guide
        position="105.09905,244.60845"
        orientation="1,0"
@@ -121,6 +121,10 @@
   </defs>
   <g
      inkscape:groupmode="layer"
+     id="layer7"
+     inkscape:label="Layer 7" />
+  <g
+     inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Layer 3"
      style="display:inline">
@@ -186,11 +190,11 @@
      id="layer5"
      inkscape:label="Layer 5">
     <circle
-       style="opacity:1;fill:#ffffff;stroke:#000000;stroke-width:3.40188;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.397701"
+       style="opacity:1;fill:#afc6e9;stroke:#d4aa00;stroke-width:3.46984;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.397701"
        id="path164733"
-       cx="105.07491"
-       cy="148.83607"
-       r="73.219009" />
+       cx="105"
+       cy="148.5"
+       r="74.68174" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -511,29 +515,30 @@
      style="display:inline">
     <g
        id="g157068"
-       transform="matrix(0.8384756,0,0,0.8384756,17.034975,51.35828)">
+       transform="matrix(0.8384756,0,0,0.8384756,17.034975,51.35828)"
+       style="fill:#005500;stroke:#005500">
       <path
-         style="fill:none;stroke:#000000;stroke-width:2.165;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Sstart);marker-end:url(#Arrow1Send)"
+         style="fill:#005500;stroke:#005500;stroke-width:2.165;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Sstart);marker-end:url(#Arrow1Send)"
          d="M 45.639443,118.32669 H 164.36056"
          id="path857" />
       <path
-         style="fill:none;stroke:#000000;stroke-width:2.165;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Sstart);marker-end:url(#Arrow1Send)"
+         style="fill:#005500;stroke:#005500;stroke-width:2.165;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Sstart);marker-end:url(#Arrow1Send)"
          d="M 105.09861,56.895416 V 175.61653"
          id="path1239" />
       <path
-         style="fill:none;stroke:#000000;stroke-width:2.165;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Sstart);marker-end:url(#Arrow1Send)"
+         style="fill:#005500;stroke:#005500;stroke-width:2.165;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Sstart);marker-end:url(#Arrow1Send)"
          d="M 53.592251,88.646411 156.40775,148.00697"
          id="path1241" />
       <path
-         style="fill:none;stroke:#000000;stroke-width:2.165;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Sstart);marker-end:url(#Arrow1Send)"
+         style="fill:#005500;stroke:#005500;stroke-width:2.165;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Sstart);marker-end:url(#Arrow1Send)"
          d="M 134.68028,66.918939 75.31972,169.73444"
          id="path1243" />
       <path
-         style="fill:none;stroke:#000000;stroke-width:2.165;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Sstart);marker-end:url(#Arrow1Send)"
+         style="fill:#005500;stroke:#005500;stroke-width:2.165;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Sstart);marker-end:url(#Arrow1Send)"
          d="m 75.319722,66.91894 59.360558,102.8155"
          id="path1245" />
       <path
-         style="fill:none;stroke:#000000;stroke-width:2.165;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Sstart);marker-end:url(#Arrow1Send)"
+         style="fill:#005500;stroke:#005500;stroke-width:2.165;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Sstart);marker-end:url(#Arrow1Send)"
          d="M 156.40775,88.646411 53.592249,148.00697"
          id="path1247" />
     </g>
@@ -545,7 +550,7 @@
      style="display:inline">
     <g
        id="g157264"
-       transform="matrix(0.8384756,0,0,0.8384756,17.034975,50.142041)">
+       transform="matrix(0.8384756,0,0,0.8384756,16.653419,49.636178)">
       <g
          id="aries"
          inkscape:transform-center-x="0.098643937"
