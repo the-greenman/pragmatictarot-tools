@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>    
+    <script src="../js/propeller.min.js" type="text/javascript"></script>
     <script type="text/javascript">
         var lables = [
             {"key": "aries" , "title":"Agency", "sub1":"Individual", "sub2":"Freedom"},
@@ -27,12 +28,20 @@
         #svg-object {
             width: 100%;
             transition: 1s ease-in-out;
+            z-index: -99;
         }
+
+        
     </style>
 
 </head>
 <body>
-    <object id="svg-object" data="opposing-forces.svg" type="image/svg+xml"></object>
+    <button id="spin" class="btn btn-primary" >Spin the wheel</button>
+    <span id="degrees"></span>
+    <div id="interaction">
+    <object id="svg-object" data="opposing-forces.svg" type="image/svg+xml"><img src="opposing-forces.svg" alt=""/></object>
+    
+    </div>
 
 
     <script type="text/javascript">
@@ -51,28 +60,47 @@
                 sub2Element.innerHTML = data.sub2;
             });
         
-            let image = svgObject.getElementById('opposingForcesSvg');
+            let image = svgObject.getElementById('opposingForcesSvg');                                    
         
-
             function rotateImage(e) { 
-                change = -30;
-               // degrees = (degrees + change) % 360;
+               change = -30;
                degrees = (degrees + change);
-               image.style.transform = 'rotate('+degrees+'deg)';
-                image.style.transition = '1s ease-in-out';
+               degrees = Math.ceil(degrees / 30) * 30      
+               image.style.transition = '1s ease-in-out';               
+               image.style.transform = 'rotate('+degrees+'deg)';               
+               reset();                
             } 
             
-            function spin(e){
-               degrees = Math.floor(Math.random() * 22)*16.3636;
-               let loops = Math.random(10);
-               image.style.transform = 'rotate('+degrees+'deg)';
-               image.style.transition = '2s ease-in-out';
+            function spin(e){                
+                let propeller = new Propeller(image , {
+		            inertia: 0.99, 
+                    speed: -10, 
+                    step: 16.36, 
+                    stepTransitionTime: 500, 
+                    stepTransitionEasing: "linear", 
+                    minimalSpeed: 0.2,
+                    onStop: function(){
+                        degrees = propeller.angle;  reset(); } 
+	            });               
+            
+                function reset(){                    
+                    if (degrees != degrees %360) {
+                        degrees = degrees %360;
+                        setTimeout(() => {
+                                image.style.transition = '0s ease-in-out';
+                                image.style.transform = 'rotate('+degrees+'deg)';        
+                        }, 1000);
+                    }
+                }
+
+
      
             }
 
             image.addEventListener('click', rotateImage);
-            image.addEventListener("dblclick", spin);  
-            image.addEventListener("touchmove", spin);  
+            document.getElementById('spin').addEventListener('click', spin);            
+            
+
             
 
 

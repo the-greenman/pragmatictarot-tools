@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="195.78966mm"
+   height="196.46657mm"
+   viewBox="0 0 195.78966 196.46657"
    version="1.1"
    id="opposingForcesSvg"
    inkscape:version="1.1 (c68e22c387, 2021-05-23)"
@@ -28,94 +28,99 @@
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="391.03005"
-     inkscape:cy="478.35774"
+     inkscape:zoom="1"
+     inkscape:cx="336"
+     inkscape:cy="268.5"
      inkscape:window-width="1824"
      inkscape:window-height="1145"
-     inkscape:window-x="-8"
+     inkscape:window-x="3592"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer3">
+     inkscape:current-layer="layer4"
+     fit-margin-top="5"
+     fit-margin-left="5"
+     fit-margin-right="5"
+     fit-margin-bottom="5"
+     lock-margins="true">
     <sodipodi:guide
-       position="105.0386,223.11167"
+       position="97.469638,174.92561"
        orientation="1,0"
        id="guide5404" />
     <sodipodi:guide
-       position="51.031511,148.46953"
+       position="43.462551,100.28347"
        orientation="0,-1"
        id="guide5406" />
   </sodipodi:namedview>
   <defs
      id="defs2">
     <marker
-       style="overflow:visible;"
+       style="overflow:visible"
        id="Arrow1Send"
-       refX="0.0"
-       refY="0.0"
+       refX="0"
+       refY="0"
        orient="auto"
        inkscape:stockid="Arrow1Send"
        inkscape:isstock="true">
       <path
-         transform="scale(0.2) rotate(180) translate(6,0)"
-         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
-         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
          id="path874" />
     </marker>
     <marker
        style="overflow:visible"
        id="Arrow1Sstart"
-       refX="0.0"
-       refY="0.0"
+       refX="0"
+       refY="0"
        orient="auto"
        inkscape:stockid="Arrow1Sstart"
        inkscape:isstock="true">
       <path
-         transform="scale(0.2) translate(6,0)"
-         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt"
-         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         transform="matrix(0.2,0,0,0.2,1.2,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
          id="path871" />
     </marker>
     <marker
-       style="overflow:visible;"
+       style="overflow:visible"
        id="Arrow1Mend"
-       refX="0.0"
-       refY="0.0"
+       refX="0"
+       refY="0"
        orient="auto"
        inkscape:stockid="Arrow1Mend"
        inkscape:isstock="true">
       <path
-         transform="scale(0.4) rotate(180) translate(10,0)"
-         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
-         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
          id="path868" />
     </marker>
     <marker
        style="overflow:visible"
        id="Arrow1Mstart"
-       refX="0.0"
-       refY="0.0"
+       refX="0"
+       refY="0"
        orient="auto"
        inkscape:stockid="Arrow1Mstart"
        inkscape:isstock="true">
       <path
-         transform="scale(0.4) translate(10,0)"
-         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt"
-         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
          id="path865" />
     </marker>
     <marker
        style="overflow:visible"
        id="Arrow1Lstart"
-       refX="0.0"
-       refY="0.0"
+       refX="0"
+       refY="0"
        orient="auto"
        inkscape:stockid="Arrow1Lstart"
        inkscape:isstock="true">
       <path
-         transform="scale(0.8) translate(12.5,0)"
-         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt"
-         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
          id="path859" />
     </marker>
   </defs>
@@ -124,7 +129,7 @@
      id="layer7"
      inkscape:label="whole elements"
      style="display:inline"
-     sodipodi:insensitive="true">
+     transform="translate(-7.5689605,-52.347369)">
     <g
        id="g296248"
        transform="translate(-0.04952621,-2.0926132)">
@@ -182,7 +187,8 @@
      inkscape:groupmode="layer"
      id="g295604"
      inkscape:label="sign elements"
-     style="display:inline;opacity:0.745424">
+     style="display:inline;opacity:0.745424"
+     transform="translate(-7.5689605,-52.347369)">
     <path
        style="opacity:0.25;mix-blend-mode:luminosity;fill:#aa0000;stroke:none;stroke-width:3.46984;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.397701"
        id="path295596"
@@ -344,8 +350,8 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="card dividers"
-     style="display:inline;opacity:0.21963394"
-     sodipodi:insensitive="true">
+     style="display:inline;opacity:0.219634"
+     transform="translate(-7.5689605,-52.347369)">
     <g
        id="g164358"
        transform="matrix(0.8384756,0,0,0.8384756,16.924051,25.932051)"
@@ -408,7 +414,7 @@
      id="layer5"
      inkscape:label="Layer 5"
      style="display:inline"
-     sodipodi:insensitive="true">
+     transform="translate(-7.5689605,-52.347369)">
     <circle
        style="opacity:0.5;fill:#afc6e9;stroke:#d4aa00;stroke-width:3.46984;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.397701"
        id="path164733"
@@ -420,7 +426,7 @@
      inkscape:groupmode="layer"
      id="layer6"
      inkscape:label="Layer 6"
-     sodipodi:insensitive="true">
+     transform="translate(-7.5689605,-52.347369)">
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:3.54954px;line-height:1.25;font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro Semi-Bold';text-align:center;text-anchor:middle;stroke-width:0.221846"
@@ -734,7 +740,7 @@
      inkscape:groupmode="layer"
      id="layer1"
      style="display:inline"
-     sodipodi:insensitive="true">
+     transform="translate(-7.5689605,-52.347369)">
     <g
        id="g157068"
        transform="matrix(0.8384756,0,0,0.8384756,16.910284,49.335483)"
@@ -773,7 +779,7 @@
      id="layer2"
      inkscape:label="Layer 2"
      style="display:inline"
-     sodipodi:insensitive="true">
+     transform="translate(-7.5689605,-52.347369)">
     <g
        id="g157264"
        transform="matrix(0.8384756,0,0,0.8384756,16.653419,49.636178)">
@@ -1237,7 +1243,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer4"
-     inkscape:label="Layer 4"
-     style="display:none"
-     sodipodi:insensitive="true" />
+     inkscape:label="spinner"
+     style="display:inline"
+     transform="translate(-7.5689605,-52.347369)" />
 </svg>
