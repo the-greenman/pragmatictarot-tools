@@ -3,22 +3,37 @@
 <head>    
     <script src="../js/propeller.min.js" type="text/javascript"></script>
     <script type="text/javascript">
-        var lables = [
+        var lables = {
+            "values" : [
             {"key": "aries" , "title":"Agency", "sub1":"Individual", "sub2":"Freedom"},
-            {"key": "taurus" , "title":"Structure", "sub1":"Ownership", "sub2":"Agency"},
+            {"key": "taurus" , "title":"Material", "sub1":"Ownership", "sub2":"Structure"},
             {"key": "gemini" , "title":"Clarity", "sub1":"Definition", "sub2":"Answers"},
             {"key": "cancer" , "title":"Safety", "sub1":"Inclusiveness", "sub2":"Play"},
             {"key": "leo" , "title":"Execution", "sub1":"Efficiency", "sub2":"Control"},
-            {"key": "virgo" , "title":"Measurement", "sub1":"Assessment", "sub2":"Accuracy"},
-            {"key": "libra" , "title":"Strategy", "sub1":"Collective", "sub2":"Sacrifice"},
-            {"key": "scorpio" , "title":"Consequence", "sub1":"Sharing", "sub2":"Creation"},
+            {"key": "virgo" , "title":"Measurement", "sub1":"Justive", "sub2":"Accuracy"},
+            {"key": "libra" , "title":"Equality", "sub1":"Collective", "sub2":"Sacrifice"},
+            {"key": "scorpio" , "title":"Meaning", "sub1":"Sharing", "sub2":"Relating"},
             {"key": "sagittarius" , "title":"Possibility", "sub1":"Direction", "sub2":"Questions"},
             {"key": "capricorn" , "title":"Accountability", "sub1":"Usefulness", "sub2":"Work"},
             {"key": "aquarius" , "title":"Exploration", "sub1":"Revolution", "sub2":"Change"},
-            {"key": "pisces" , "title":"Meaning", "sub1":"Generosity", "sub2":"Belonging"}
-
-
+            {"key": "pisces" , "title":"Belief", "sub1":"Uniqueness", "sub2":"Mercy"}
+        ],
+        "agile" : [
+            {"key": "aries" , "title":"Autonomy", "sub1":"Individual", "sub2":"Freedom"},
+            {"key": "taurus" , "title":"Progress", "sub1":"Ownership", "sub2":"Structure"},
+            {"key": "gemini" , "title":"Learning", "sub1":"Definition", "sub2":"Answers"},
+            {"key": "cancer" , "title":"Trust", "sub1":"Inclusiveness", "sub2":"Play"},
+            {"key": "leo" , "title":"Coordination", "sub1":"Efficiency", "sub2":"Control"},
+            {"key": "virgo" , "title":"Quality", "sub1":"Justive", "sub2":"Accuracy"},
+            {"key": "libra" , "title":"Process", "sub1":"Collective", "sub2":"Sacrifice"},
+            {"key": "scorpio" , "title":"Engagement", "sub1":"Sharing", "sub2":"Relating"},
+            {"key": "sagittarius" , "title":"Direction", "sub1":"Direction", "sub2":"Questions"},
+            {"key": "capricorn" , "title":"Value", "sub1":"Usefulness", "sub2":"Work"},
+            {"key": "aquarius" , "title":"Transformation", "sub1":"Revolution", "sub2":"Change"},
+            {"key": "pisces" , "title":"Inspiration", "sub1":"Uniqueness", "sub2":"Mercy"}
         ]
+
+        }
 
 
         
@@ -48,9 +63,11 @@
     let degrees=0; // store rotation degrees
     window.addEventListener("load", function() {
         let svgObject = document.getElementById('svg-object').contentDocument;
- 
+        let set = new URLSearchParams(window.location.search).get('set');
+        alert(set);
+        if (!set) set = 'values';
         if (svgObject){
-            lables.forEach(data => {
+            lables[set].forEach(data => {
                 let titleElement = svgObject.getElementById(`${data.key}-title`);      
                 let sub1Element = svgObject.getElementById(`${data.key}-sub1`);
                 let sub2Element = svgObject.getElementById(`${data.key}-sub2`);
